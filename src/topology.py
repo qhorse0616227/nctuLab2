@@ -8,6 +8,7 @@ from mininet.util import dumpNodeConnections
 from mininet.log import setLogLevel
 from mininet.cli import CLI
 
+#Create a topology
 class SingleSwitchTopo(Topo):
 	def build(self):
 		#Add 9 switches to a topology
@@ -45,16 +46,25 @@ class SingleSwitchTopo(Topo):
 		self.addLink(h6, s6, bw=3, delay='5ms', loss=2)
 		self.addLink(s6, s8, bw=20, delay='60us', loss=6)
 
+#Test the topology
 def simpleTest():
+	#Create a topology with 9 switches and 6 hosts
 	topo = SingleSwitchTopo()
+	#Create a mininet
 	net = Mininet(topo=topo, controller=OVSController, link=TCLink)
+	#Start a network
 	net.start()
 	print("Testing network connectivity")
+	#Dump every hosts' and switches' connections
 	dumpNodeConnections(net.hosts)
 	dumpNodeConnections(net.switches)
+	#Test connectivity by trying to have all nodes ping each other
 	net.pingAll()
+	#Open the command line interface
 	CLI(net)
 
 if __name__ == '__main__':
+	#Print useful information
 	setLogLevel('info')
+	#Create and test a network
 	simpleTest()
