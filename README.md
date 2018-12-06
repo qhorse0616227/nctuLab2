@@ -16,8 +16,9 @@ In this lab, we are going to write a Python program which can generate a network
 ---
 ## Execution
 
-    先cd到那個檔案的位置，再改成可以執行topology.py的模式（chmod +x topology.py），然後執行topology.py（./topology.py）
-    ![螢幕快照 2018-12-06 下午2.53.45.png](https://github.com/nctucn/lab2-qhorse0616227/blob/master/%E8%9E%A2%E5%B9%95%E5%BF%AB%E7%85%A7%202018-12-06%20%E4%B8%8B%E5%8D%882.53.45.png)
+> * 先cd到那個檔案的位置，再改成可以執行topology.py的模式（chmod +x topology.py），然後執行topology.py（./topology.py）  
+    
+> * ![螢幕快照 2018-12-06 下午2.53.45.png](https://github.com/nctucn/lab2-qhorse0616227/blob/master/%E8%9E%A2%E5%B9%95%E5%BF%AB%E7%85%A7%202018-12-06%20%E4%B8%8B%E5%8D%882.53.45.png)
         
 ---
 ## Description
