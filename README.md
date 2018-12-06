@@ -18,8 +18,9 @@ In this lab, we are going to write a Python program which can generate a network
 
 > TODO: 
 > * Describe how to execute your program
+    先cd到那個檔案的位置，再改成可以執行topology.py的模式（chmod +x topology.py），然後執行topology.py（./topology.py）
 > * Show the screenshot of using iPerf command in Mininet
-
+        
 ---
 ## Description
 
