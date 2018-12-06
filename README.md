@@ -16,9 +16,7 @@ In this lab, we are going to write a Python program which can generate a network
 ---
 ## Execution
 
-> * Describe how to execute your program
     先cd到那個檔案的位置，再改成可以執行topology.py的模式（chmod +x topology.py），然後執行topology.py（./topology.py）
-> * Show the screenshot of using iPerf command in Mininet
     ![螢幕快照 2018-12-06 下午2.53.45.png](https://github.com/nctucn/lab2-qhorse0616227/blob/master/%E8%9E%A2%E5%B9%95%E5%BF%AB%E7%85%A7%202018-12-06%20%E4%B8%8B%E5%8D%882.53.45.png)
         
 ---
@@ -31,9 +29,10 @@ In this lab, we are going to write a Python program which can generate a network
 
 ### iPerf Commands
 
-> * Describe the meaning of iPerf command you used in detail
     h2 iperf -s -u -i 1 > ./out/result &   
-    將h2以server的模式啟動(使用UDP協議)，並將結果每隔1秒顯示出來，再把結果傳到out資料夾裡
+    將h2以server的模式啟動(使用UDP協議)，並將狀態每隔1秒顯示出來，再把結果傳到out資料夾裡  
+    h6 iperf -c 10.0.0.2 -u -i 1  
+    將h2以client的模式啟動(使用UDP協議)，並連接到ＩＰ地址為10.0.0.2的server，然後每隔1秒要顯示一次狀態
     
 
 ### Tasks
@@ -80,10 +79,7 @@ In this lab, we are going to write a Python program which can generate a network
 ---
 ## Contributors
 
-> TODO:
-> * Please replace "YOUR_NAME" and "YOUR_GITHUB_LINK" into yours
-
-* [YOUR_NAME](YOUR_GITHUB_LINK)
+* [Tingyu Chen](https://github.com/qhorse0616227)
 * [David Lu](https://github.com/yungshenglu)
 
 ---
