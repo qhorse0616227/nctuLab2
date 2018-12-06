@@ -32,7 +32,8 @@ In this lab, we are going to write a Python program which can generate a network
 ### iPerf Commands
 
 > * Describe the meaning of iPerf command you used in detail
-    h2 iperf -s -u -i 1 > ./out/result & 將h2以server的模式啟動(使用UDP協議)，並將結果每隔1秒顯示出來，再把結果傳到out資料夾裡
+    h2 iperf -s -u -i 1 > ./out/result &   
+    將h2以server的模式啟動(使用UDP協議)，並將結果每隔1秒顯示出來，再把結果傳到out資料夾裡
     
 
 ### Tasks
