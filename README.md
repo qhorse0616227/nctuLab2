@@ -64,6 +64,7 @@ In this lab, we are going to write a Python program which can generate a network
 > * [Iperf使用說明](http://m1016c.pixnet.net/blog/post/145780230-iperf%E4%BD%BF%E7%94%A8%E8%AA%AA%E6%98%8E)
 > * [Mininet筆記](https://blog.laszlo.tw/?p=81)
 > * [Mininet Python API Reference Manual](http://mininet.org/api/annotated.html)
+> * [SDN軟體定義網路](https://sites.google.com/site/sdnruantidingyiwanglu/home/sdn-lab/lab1)
 
 * **Mininet**
     * [Mininet Walkthrough](http://mininet.org/walkthrough/)
