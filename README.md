@@ -25,38 +25,44 @@ In this lab, we are going to write a Python program which can generate a network
 
 ### Mininet API in Python
 
-> * Describe the meaning of Mininet API in Python you used in detail
+> * Mininet : Network emulation with hosts spawned in network namespaces
+> * Topo : Data center network representation for structured multi-trees
+> * OVSController : Open vSwitch controller
+> * TCLink : Link with symmetric TC interfaces configured via opts
+> * dumpNodeConnections : Dump every hosts’ connections
+> * setLogLevel : Set new log level
+> * CLI : Simple command-line interface to talk to nodes
         
 
 ### iPerf Commands
 
     h2 iperf -s -u -i 1 > ./out/result &   
-    將h2以server的模式啟動(使用UDP協議)，並將狀態每隔1秒顯示出來，再把結果傳到out資料夾裡  
+    將h2以server的模式啟動(使用UDP協議)，並將狀態每隔1秒顯示出來，再把結果傳到out資料夾裡    
+    
     h6 iperf -c 10.0.0.2 -u -i 1  
     將h2以client的模式啟動(使用UDP協議)，並連接到ＩＰ地址為10.0.0.2的server，然後每隔1秒要顯示一次狀態
     
 
 ### Tasks
 
-> TODO:
-> * Describe how you finish this work step-by-step in detail
-
 1. **Environment Setup**
-
+   先把自己的repository clone到“Network_Topology”
 
 2. **Example of Mininet**
-
+   在執行example.py前要先把模式轉成可以執行的模式 ＝> chmod +x example.py  
+   然後才能執行那個檔案 ＝> ./example.py
 
 3. **Topology Generator**
-
+   照著example.py寫自己的topology.py
+   詳細的寫法code裡有註解
 
 4. **Measurement**
-
+   用iperf來測試網路性能
 ---
 ## References
 
-> TODO: 
-> * Please add your references in the following
+> * [Iperf使用說明](http://m1016c.pixnet.net/blog/post/145780230-iperf%E4%BD%BF%E7%94%A8%E8%AA%AA%E6%98%8E)
+> * [Mininet筆記](https://blog.laszlo.tw/?p=81)
 
 * **Mininet**
     * [Mininet Walkthrough](http://mininet.org/walkthrough/)
