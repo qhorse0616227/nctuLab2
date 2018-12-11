@@ -53,7 +53,7 @@ In this lab, we are going to write a Python program which can generate a network
    然後才能執行那個檔案 ＝> ./example.py
 
 3. **Topology Generator**
-   照著example.py寫自己的topology.py
+   照著example.py寫自己的topology.py(topo0.png)
    詳細的寫法code裡有註解
 
 4. **Measurement**
